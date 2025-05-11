@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo">
+            <a href="Tracker.html"><i class="fas fa-shoe-prints"></i> Trackers</a>
+          </div>
+
+          <ul>
+            <li><a href="#">Customization</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#"><span class="material-symbols-outlined" id="cart">
+              shopping_cart
+              
+              </span>    </a></li>
+            <li><a href="#" > <span class="material-symbols-outlined" id="login" >
+                person
+                </span></a></li>
+          </ul>
+
+          </nav>
+    </header>
+    
+    <!--Cart Page-->
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Sub-total</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003461_1717090229_tatum-2-sidewalk-chalk-pf-basketball-shoes-SjC3nc.jpg" class="image-size"> 
+                        <div>
+                          <p>Jumpman Sidewalk</p>
+                          <small>Price: ₹15,499.00 </small>
+                          <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>₹15,499.00</td>
+            </tr>
+
+            <tr>
+              <td>
+                  <div class="cart-info">
+                      <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003460_1717090205_jordan-stay-loyal-3-shoes-GNHN2X.jpg" class="image-size"> 
+                      <div>
+                        <p>Jordan Stay Loyal</p>
+                        <small>Price: ₹10,499.00 </small>
+                        <a href="#">Remove</a>
+                      </div>
+                  </div>
+              </td>
+              <td><input type="number" value="1"></td>
+              <td>₹10,499.00</td>
+          </tr>
+
+          <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003464_1717090275_jordan-one-take-5-quai-54-pf-basketball-shoes-FqsGlx.jpg" class="image-size"> 
+                    <div>
+                      <p>Jumpman Sidewalk</p>
+                      <small>Price: ₹19,900.00 </small>
+                      <a href="#">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>₹19,900.00</td>
+        </tr>
+        </table>
+
+        <div class="total-price">
+          <table>
+            <tr>
+              <td>Sub-total:-</td>
+              <td>₹45,898.00</td>
+            </tr>
+            <tr>
+              <td>Tax:-</td>
+              <td>₹12,851.44</td>
+            </tr>
+            <tr>
+              <td>Delivery charge:-</td>
+              <td>₹0.00(free)</td>
+            </tr>
+            <tr>
+              <td>Total:-</td>
+              <td>₹58,949.44</td>
+            </tr>
+          </table>
+        </div>
+
+    </div>
+
+</body>
+</html  >
